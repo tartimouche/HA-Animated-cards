@@ -20,7 +20,7 @@
 
 ## Preview
 
-![gif-837c0602fa6d5b83](https://github.com/user-attachments/assets/fa15fbcc-b3e8-4db3-8d69-e9368dc49a2a)
+![528866814-fa15fbcc-b3e8-4db3-8d69-e9368dc49a2a](https://github.com/user-attachments/assets/a57463d6-40b5-45b4-bb4d-6e0fd3bf0b78)
 
 `Loading images... please wait`
 
