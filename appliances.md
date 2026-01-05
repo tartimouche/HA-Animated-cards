@@ -528,6 +528,10 @@ card_mod:
         {% set ent_power = 'sensor.smart_plug_power' %}
         
         /* Optional Helper (Leave as is if you don't have one) */
+        /* If in-use, then you can use this entity as the main card entity above */
+        /* and it will show useful secondary info like */
+        /* (Off, Running) instead of repeating wattage */
+
         {% set ent_helper = 'binary_sensor.dishwasher_active_delay' %}
 
         /* Thresholds */
@@ -788,7 +792,11 @@ card_mod:
         {% set ent_switch = 'switch.smart_plug' %} 
         {% set ent_power = 'sensor.smart_plug_power' %}
         
-        /* Optional Helper */
+        /* Optional Helper (Leave as is if you don't have one) */
+        /* If in-use, then you can use this entity as the main card entity above */
+        /* and it will show useful secondary info like */
+        /* (Off, Running) instead of repeating wattage */
+
         {% set ent_helper = 'binary_sensor.washing_machine_active_delay' %}
 
         /* Thresholds */
