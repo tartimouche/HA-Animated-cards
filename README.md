@@ -24,7 +24,7 @@
 | **🏠Home** | main collection| [**You are here**](./README.md) |
 | **🧺 Appliances** | washer, dryer, dishwasher, etc | [**View Page**](./appliances.md) |
 | **🔋 Battery** | Battery level, charging animations | [**View Page**](./battery.md) |
-| **📈 Graph Cards** | Temp, humidity, etc | [**View Page**](./ent-with-graph.md) |
+| **📈 Graph Cards** | Temp, humidity, etc | [**View Page**](./env-with-graph.md) |
 | **🍄 Legacy** | Mushroom legacy template cards. | [**View Page**](./mushroom-legacy-template-card.md) |
 
 ---
