@@ -43,6 +43,9 @@ explains how to do it.
 >   rows: 1.5
 > ```
 
+>[!TIP]
+>Want to change card and text color (useful >for light-mode folks)? Add the following to >`ha-card` and play with the values (rgb, >hex, etc).
+
 <hr>
 
 ## Batch 1:
