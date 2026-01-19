@@ -45,7 +45,12 @@ explains how to do it.
 
 >[!TIP]
 >Want to change card and text color (useful for light-mode folks)? Add the following to `ha-card` and play with the values (rgb, hex, etc).
-
+>
+```yaml
+background: #1C1C1C !important;
+--card-primary-color: white !important;
+--card-secondary-color: white !important;
+```
 <hr>
 
 ## Batch 1:
