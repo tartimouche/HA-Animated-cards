@@ -120,7 +120,7 @@ card_mod:
         
         /* --- POWER CALCULATION --- */
         {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' if power_w > 0 else '' %}
+        {% set power_text = ' • ' ~ power_w ~ 'W' %}
 
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
@@ -366,7 +366,7 @@ card_mod:
 
         /* --- POWER CALCULATION --- */
         {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' if power_w > 0 else '' %}
+        {% set power_text = ' • ' ~ power_w ~ 'W' %}
         
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
@@ -637,7 +637,7 @@ card_mod:
         
         /* --- POWER CALCULATION --- */
         {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' if power_w > 0 else '' %}
+        {% set power_text = ' • ' ~ power_w ~ 'W' %}
 
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
@@ -890,7 +890,7 @@ card_mod:
         
         /* --- POWER DISPLAY --- */
         {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' if power_w > 0 else '' %}
+        {% set power_text = ' • ' ~ power_w ~ 'W' %}
 
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
