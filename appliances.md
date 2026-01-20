@@ -133,8 +133,13 @@ card_mod:
         {% set raw_percent = states(ent_percent) | float(-1) %}
         
         /* --- POWER CALCULATION --- */
-        {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% set raw_power = states(ent_power) %}
+        {% if is_number(raw_power) %}
+            {% set power_w = raw_power | float(0) | round %}
+            {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% else %}
+            {% set power_text = '' %}
+        {% endif %}
 
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
@@ -393,8 +398,13 @@ card_mod:
         {% set raw_percent = states(ent_percent) | float(-1) %}
 
         /* --- POWER CALCULATION --- */
-        {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% set raw_power = states(ent_power) %}
+        {% if is_number(raw_power) %}
+            {% set power_w = raw_power | float(0) | round %}
+            {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% else %}
+            {% set power_text = '' %}
+        {% endif %}
         
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
@@ -678,8 +688,13 @@ card_mod:
         {% set raw_percent = states(ent_percent) | float(-1) %}
         
         /* --- POWER CALCULATION --- */
-        {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% set raw_power = states(ent_power) %}
+        {% if is_number(raw_power) %}
+            {% set power_w = raw_power | float(0) | round %}
+            {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% else %}
+            {% set power_text = '' %}
+        {% endif %}
 
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
@@ -944,9 +959,14 @@ card_mod:
 
         {% set raw_percent = states(ent_percent) | float(-1) %}
         
-        /* --- POWER DISPLAY --- */
-        {% set power_w = states(ent_power) | float(0) | round %}
-        {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        /* --- POWER CALCULATION --- */
+        {% set raw_power = states(ent_power) %}
+        {% if is_number(raw_power) %}
+            {% set power_w = raw_power | float(0) | round %}
+            {% set power_text = ' • ' ~ power_w ~ 'W' %}
+        {% else %}
+            {% set power_text = '' %}
+        {% endif %}
 
         /* Format Time (min -> Xh Ym) */
         {% set hours = (time_rem / 60) | int %}
