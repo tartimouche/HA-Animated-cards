@@ -67,10 +67,8 @@ background: #1C1C1C !important;
 ## Batch 4:
 ![gif-2](https://github.com/user-attachments/assets/a7c3671a-11bd-4725-9765-536dbc835220)
 
-<!--
 ## Batch 5:
 ![gif-batch5](https://github.com/user-attachments/assets/0a432feb-ed58-4dae-b88d-995f30331e04)
--->
 
 # Cards:
 
@@ -11367,7 +11365,6 @@ card_mod:
 ```
 </details>
 
-<!--
 ## $${\color{yellow}Batch \space 5}$$
 
 <details>
@@ -12467,9 +12464,9 @@ cards:
             transition: background 0.3s ease;
           }
 
-          /* -------------------------------------- */
-          /* ANIMATION: THE BIG FALLING LETTER      */
-          /* -------------------------------------- */
+          /* ----------------------*/
+          /* ANIMATION LETTER      */
+          /* --------------------- */
           .shape::before {
             content: '';
             display: var(--anim-mail-drop);
@@ -12498,9 +12495,9 @@ cards:
             animation: mail-drop 1.5s ease-in-out infinite;
           }
 
-          /* -------------------------------------- */
-          /* ANIMATION: ICON MOVEMENT               */
-          /* -------------------------------------- */
+          /* ------------------------*/
+          /* ANIMATION ICON MOVEMENT */
+          /* ------------------------*/
           ha-icon {
             color: rgb(var(--mb-color)) !important;
             transition: color 0.3s ease;
@@ -12645,9 +12642,9 @@ card_mod:
         transition: height 0.4s;
       }
 
-      /* ================================== */
-      /* THE WINDOW CAPSULE (Visual)        */
-      /* ================================== */
+      /* =====================*/
+      /* THE WINDOW CAPSULE   */
+      /* ==================== */
       ha-card::after {
         content: '';
         position: absolute;
@@ -12789,9 +12786,9 @@ card_mod:
         transition: height 0.4s;
       }
 
-      /* ================================== */
-      /* THE WINDOW CAPSULE (Visual)        */
-      /* ================================== */
+      /* ==========================  */
+      /* THE WINDOW CAPSULE Visual */
+      /* ==========================  */
       ha-card::after {
         content: '';
         position: absolute;
@@ -13420,7 +13417,6 @@ card_mod:
 
 ```
 </details>
--->
 
 ---
 
